@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWorldController {
     @GetMapping("/hello")
     public String sayHello() {
-        return "Hi. Welcome to CNA apps on the Cloud - v2";
+        return "Hi. Welcome to CNA apps on the Cloud - v3";
     }
 }
