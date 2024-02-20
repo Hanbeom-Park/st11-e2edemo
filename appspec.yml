@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: target/<st##>-e2edemo.war
+  - source: target/st11-e2edemo.war
     destination: /home/ec2-user/apache-tomcat-9.0.85/webapps/
 hooks:
   BeforeInstall:
