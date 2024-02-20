@@ -12,6 +12,7 @@
     <artifactId>st11-e2edemo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>st11-e2edemo</name>
+    <packaging>war</packaging>
     <description>st11-e2edemo</description>
     <properties>
         <java.version>17</java.version>
@@ -36,6 +37,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
+        <finalName>${artifactId}</finalName>
     </build>
 
 </project>
