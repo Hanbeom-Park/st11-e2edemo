@@ -16,3 +16,8 @@ phases:
 artifacts:
   files:
     - target/st11-e2edemo.war
+    - appspec.yml
+    - scripts/before_install.sh
+    - scripts/after_install.sh
+    - scripts/start_server.sh
+    - scripts/stop_server.sh
